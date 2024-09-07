@@ -1,6 +1,6 @@
-package ar.edu.unlp.info.oo1.ejercicio2;
+package ar.edu.unlp.info.oo1.practica1.ejercicio2;
 
-import ar.edu.unlp.info.oo1.ejercicio2.Interfaces.IProducto;
+import ar.edu.unlp.info.oo1.practica1.ejercicio2.Interfaces.IProducto;
 
 public class Producto implements IProducto
 {

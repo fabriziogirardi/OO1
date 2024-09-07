@@ -1,6 +1,6 @@
-package ar.edu.unlp.info.oo1.ejercicio1.impl;
+package ar.edu.unlp.info.oo1.practica1.ejercicio1.impl;
 
-import ar.edu.unlp.info.oo1.ejercicio1.WallPost;
+import ar.edu.unlp.info.oo1.practica1.ejercicio1.WallPost;
 
 /**
  * Completar esta clase de acuerdo a lo especificado en el cuadernillo

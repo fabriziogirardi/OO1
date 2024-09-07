@@ -1,6 +1,6 @@
-package ar.edu.unlp.info.oo1.ejercicio2;
+package ar.edu.unlp.info.oo1.practica1.ejercicio2;
 
-import ar.edu.unlp.info.oo1.ejercicio2.Interfaces.ITicket;
+import ar.edu.unlp.info.oo1.practica1.ejercicio2.Interfaces.ITicket;
 
 import java.time.LocalDate;
 

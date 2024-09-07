@@ -1,4 +1,4 @@
-package ar.edu.unlp.info.oo1.ejercicio2.Interfaces;
+package ar.edu.unlp.info.oo1.practica1.ejercicio2.Interfaces;
 
 public interface IBalanza
 {

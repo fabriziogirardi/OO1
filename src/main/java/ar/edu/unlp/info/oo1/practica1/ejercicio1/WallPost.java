@@ -1,4 +1,4 @@
-package ar.edu.unlp.info.oo1.ejercicio1;
+package ar.edu.unlp.info.oo1.practica1.ejercicio1;
 
 public interface WallPost {
 	
