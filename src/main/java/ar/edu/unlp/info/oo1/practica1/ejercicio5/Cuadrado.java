@@ -1,6 +1,8 @@
 package ar.edu.unlp.info.oo1.practica1.ejercicio5;
 
-public class Cuadrado extends FiguraGeometrica
+import ar.edu.unlp.info.oo1.practica1.ejercicio5.Interfaces.IFiguraGeometrica;
+
+public class Cuadrado implements IFiguraGeometrica
 {
     private double lado;
 

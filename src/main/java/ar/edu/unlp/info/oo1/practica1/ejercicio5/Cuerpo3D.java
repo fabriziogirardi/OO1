@@ -1,9 +1,11 @@
 package ar.edu.unlp.info.oo1.practica1.ejercicio5;
 
+import ar.edu.unlp.info.oo1.practica1.ejercicio5.Interfaces.IFiguraGeometrica;
+
 public class Cuerpo3D
 {
     private double altura;
-    private FiguraGeometrica caraBasal;
+    private IFiguraGeometrica caraBasal;
 
     public void setAltura(double altura)
     {
@@ -15,7 +17,7 @@ public class Cuerpo3D
         return this.altura;
     }
 
-    public void setCaraBasal(FiguraGeometrica caraBasal)
+    public void setCaraBasal(IFiguraGeometrica caraBasal)
     {
         this.caraBasal = caraBasal;
     }
