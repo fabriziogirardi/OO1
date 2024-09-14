@@ -4,11 +4,11 @@ import java.time.LocalDate;
 
 public interface ITicket
 {
-    float impuesto();
+    double impuesto();
 
-    float getPrecioTotal();
+    double getPrecioTotal();
 
-    float getPesoTotal();
+    double getPesoTotal();
 
     int getCantidadDeProductos();
 

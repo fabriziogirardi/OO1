@@ -2,7 +2,6 @@ package ar.edu.unlp.info.oo1.practica1.ejercicio2;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import ar.edu.unlp.info.oo1.practica1.ejercicio2.Producto;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

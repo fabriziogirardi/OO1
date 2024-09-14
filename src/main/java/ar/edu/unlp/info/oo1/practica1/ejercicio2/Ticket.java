@@ -10,11 +10,11 @@ public class Ticket implements ITicket
 
     private int cantidadDeProductos;
 
-    private float precioTotal;
+    private double precioTotal;
 
-    private float pesoTotal;
+    private double pesoTotal;
 
-    public Ticket(int cantidadDeProductos, float precioTotal, float pesoTotal, LocalDate fecha)
+    public Ticket(int cantidadDeProductos, double precioTotal, double pesoTotal, LocalDate fecha)
     {
         this.cantidadDeProductos = cantidadDeProductos;
         this.precioTotal = precioTotal;
@@ -22,9 +22,9 @@ public class Ticket implements ITicket
         this.fecha = fecha;
     }
 
-    public float impuesto()
+    public double impuesto()
     {
-        return this.precioTotal * 0.21f;
+        return this.precioTotal * 0.21;
     }
 
     public int getCantidadDeProductos()
@@ -38,12 +38,12 @@ public class Ticket implements ITicket
         return fecha;
     }
 
-    public float getPrecioTotal()
+    public double getPrecioTotal()
     {
         return this.precioTotal;
     }
 
-    public float getPesoTotal()
+    public double getPesoTotal()
     {
         return this.pesoTotal;
     }

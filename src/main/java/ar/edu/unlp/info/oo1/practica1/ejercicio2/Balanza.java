@@ -8,8 +8,8 @@ import java.time.LocalDate;
 public class Balanza implements IBalanza
 {
     private int cantidadDeProductos;
-    private float precioTotal;
-    private float pesoTotal;
+    private double precioTotal;
+    private double pesoTotal;
 
     public void ponerEnCero()
     {
