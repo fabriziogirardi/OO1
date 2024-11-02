@@ -9,6 +9,7 @@ public class Usuario
     private final String        nombre;
     private final String        direccion;
     private final List<Consumo> consumos;
+    private       Factura       factura;
 
     public Usuario(String nombre, String direccion)
     {
@@ -39,13 +40,15 @@ public class Usuario
 
     public Factura emitirFactura(CuadroTarifario cuadroTarifario)
     {
-        double total = this.ultimoConsumo().calcularCostoConsumo(cuadroTarifario.getPrecioKwh());
+        double total        = this.ultimoConsumo().calcularCostoConsumo(cuadroTarifario.getPrecioKwh());
         double bonificacion = this.ultimoConsumo().verificarBonificacion() ? total * 0.1 : 0.0;
 
-        return new Factura(this.getNombre(),
-                           this.getDireccion(),
-                           LocalDate.now(),
-                           bonificacion,
-                           total);
+        this.factura = new Factura(this.getNombre(),
+                                   this.getDireccion(),
+                                   LocalDate.now(),
+                                   bonificacion,
+                                   total);
+
+        return this.factura;
     }
 }
