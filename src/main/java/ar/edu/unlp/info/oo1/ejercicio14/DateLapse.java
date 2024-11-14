@@ -32,4 +32,8 @@ public class DateLapse implements Intervalable
     {
         return other != null && (!other.isBefore(this.getFrom()) && !other.isAfter(this.getTo()));
     }
+
+    public boolean overlaps (DateLapse other) {
+        return other != null && (this.includesDate(other.getFrom()) || this.includesDate(other.getTo()));
+    }
 }
